@@ -1,0 +1,100 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+
+
+nav {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  height: 03px;
+  margin-left: 33px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+  margin-top: 01px;
+  margin-left: 30px;
+  margin-bottom: 01px;
+
+
+}
+
+body {
+  background-color: #545454
+}
+
+#divBusca {
+  background-color: #545454;
+  border: solid 2px #ffffff;
+  border-radius: 90px;
+  width: 269px;
+  height: 32px;
+  float: right;
+  margin-top: 12px;
+  margin-right: 01px;
+
+}
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 192px;
+}
+
+#btnBusca {
+  border: none;
+  float: left;
+  height: 32px;
+  border-radius: 90px;
+  width: 70px;
+  font-weight: bold;
+  background: #545454;
+  font-size: 23px;
+
+}
+
+#divBusca img {
+  float: right;
+}
+
+/* body div {
+  float: right;
+  margin-left: 739px;
+
+} */
+
+/* img {
+  margin-left: 60px;
+
+  float: left;
+} */
+
+/* h2 {
+
+  text-align: right;
+  margin-right: 300px;
+  margin-top: 100px;
+} */
+
+.alinhar {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 60px;
+
+}
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+  
+}

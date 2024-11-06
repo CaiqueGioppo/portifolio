@@ -4,25 +4,6 @@ html {
     font-size: 62.5%;
 
 }
-    .container {
-        position: relative;
-        text-align: center;
-        color: white;
-    }
-    .overlay-image {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        opacity: 0.5; /* Ajuste a opacidade conforme necessário */
-    }
-    .reflected-image {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) scaleY(-1); /* Espelha a imagem verticalmente */
-        opacity: 0.3; /* Ajuste a opacidade conforme necessário */
-    }
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -91,10 +72,12 @@ p {
     /*display flex responsavel por definir como os item vão estar sendo mostrado na pagina (flex - encaixa todos os ementos de forma flexivel*/
     display: flex;
     /*Responsavel por dizer como os elmentos vão estar justificados dentro da pagina*/
-    justify-content: flex-end;
+    justify-content: left;
     /*define os espaços entre elementos de um display flexivel*/
     gap: 1rem;
     font-size: 1.8rem;
+    
+
 }
 
 .nav-links a {
@@ -134,10 +117,9 @@ p {
     background-color: #3d3e41;
     width: 85%;
     height: auto;
-    justify-content: center;
     text-align: justify;
-    border:none;
-    /*margin: 50px;*/
+
+    margin: auto;
 }
 
 .project {

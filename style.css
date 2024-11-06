@@ -13,7 +13,7 @@ body {
     background-color: #000; /* Fundo preto */
     margin: 50px;
 }
-.container {
+/*.container {
     position: relative;
     text-align: center;
     color: white;
@@ -25,12 +25,12 @@ body {
     transform: translate(-50%, -50%);
     opacity: 0.5; /* Ajuste a opacidade conforme necessário */
 }
-.reflected-image {
+/*.reflected-image {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scaleY(-1); /* Espelha a imagem verticalmente */
-    opacity: 0.3; /* Ajuste a opacidade conforme necessário */
+    /*opacity: 0.3;*/ /* Ajuste a opacidade conforme necessário */
 
 }
 
@@ -123,17 +123,18 @@ p {
 }
 
 .project {
-   width: 80%; 
-   height: 90%;
+   width: 10%; 
+   height: 40%;
+  
 }
-
 
 
 .project-image {
     width: 24rem;
     height: 24rem;
     margin-right: 2.5rem;
-    border-radius: 0.6rem;
+    border-radius:2.5rem;
+    border: solid 2px white;
 }
 
 .projec-title {

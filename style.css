@@ -25,7 +25,7 @@ body {
     border-radius: 15px;
     clip-path: retangle(100% 100% at 100% 50%);
     
-   
+
 
 .carousel-images {
     display: flex;
@@ -35,6 +35,14 @@ body {
     
      
 }
+}
+
+.button {
+    border-radius: 0.2rem;
+    background-color: #0039CC;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .carousel-image {
@@ -221,8 +229,8 @@ p {
     }
 
     .project-image {
-        width: 20%;
-        height: 30rem;
+        width: 40%;
+        height: 40rem;
         margin-right: 2.5rem;
         border-radius: 2.5rem;
         border: solid 2px white;

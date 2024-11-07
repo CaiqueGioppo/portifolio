@@ -1,0 +1,153 @@
+img {
+width: 190px;
+border: solid 3px #303030;
+border-radius: 4%;
+margin-left: auto;
+margin-right: auto;
+
+}
+.imagens {
+display: flex;
+justify-content: center;
+gap: 20px;
+
+
+}
+
+
+
+
+
+a:hover {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transform: scale(1.2);
+}
+
+
+body {
+    background-image: url(abertura.jpg);
+}
+
+.container {
+    color: #000000fb;
+}
+
+@font-face {
+    font-family: Mario256;
+    src: url(SuperMario256.ttf);
+}
+
+@font-face {
+    font-family: Mario64;
+    src: url(Super\ Mario\ 64.ttf);
+}
+
+@font-face {
+    font-family: Mario;
+    src: url(Super-Mario-World.ttf);
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Mario256;
+    font-size: 30px;
+    height: 25px;
+    color: #bbbbbb;
+}
+
+h2 {
+    font-family: Mario64;
+    color: #bbbbbb;
+}
+p {
+    font-family: Mario;
+    color: #bbbbbb;
+    font-size: x-large;
+
+}
+.personagem {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    border-radius: 30px;
+    border: solid;
+    background-color: rgb(156, 0, 0);
+    color: #000000;
+
+}
+
+.personagem2 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    border-radius: 30px;
+    border: solid;
+    background-color: rgb(0, 110, 9);
+    color: #000000;
+    }
+    .personagem3 {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        border-radius: 30px;
+        border: solid;
+        background-color: rgb(180, 1, 126);
+        color: #000000;
+    }
+    .personagem4 {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        border-radius: 30px;
+        border: solid;
+        background-color: rgb(0, 177, 184);
+        color: #000000;
+    }
+    .personagem5 {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        border-radius: 30px;
+        border: solid;
+        background-color: rgb(104, 16, 0);
+        color: #000000;
+    }
+    .personagem6 {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        border-radius: 30px;
+        border: solid;
+        background-color: rgb(187, 174, 0);
+        color: #000000;
+    }
+    .img2 {
+        margin-top: 50px;
+        border-radius: 30px;
+        width: 500px;
+        transform: scale(1.0);
+        align-items: center;
+        justify-content: center;
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+

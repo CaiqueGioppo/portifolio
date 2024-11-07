@@ -6,14 +6,59 @@ html {
 }
 
 body {
+
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background: linear-gradient(to bottom, #001b2b, #000000);
     /* Fundo preto */
     margin: 50px;
 }
+
+.carousel {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+
+    border-radius: 15px;
+    clip-path: retangle(100% 100% at 100% 50%);
+    
+   
+
+.carousel-images {
+    display: flex;
+    width: 200%;
+    /* Duas vezes a largura do contêiner para acomodar duas imagens */
+    animation: slide 80s linear infinite;
+    
+     
+}
+}
+
+.carousel-image {
+    width: 50%;
+    /* Metade da largura do contêiner para que duas imagens se encaixem perfeitamente */
+    height: auto;
+    filter: brightness(0.5);
+    border: 5px solid fffff;
+    
+ 
+   
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
 
 /*.container {
     position: relative;
@@ -25,7 +70,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0.5; /* Ajuste a opacidade conforme necessário *//*
+    opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+/*
 }
 
 /*.reflected-image {
@@ -111,21 +157,16 @@ p {
     margin: 4rem 0;
 }
 
-.button {
-    border-radius: 0.2rem;
-    background-color: #0039CC;
-    padding: 1rem 2rem;
-    color: #ffffff;
-    text-decoration: none;
-}
+
 
 .about {
     background-color: #3d3e41;
     width: 85%;
     height: auto;
     text-align: justify;
-
+    border-radius: 15px;
     margin: auto;
+    
 }
 
 .project {
@@ -157,7 +198,6 @@ p {
 }
 
 .footer-social {
-    margin-top: 100px;
     display: flex;
     gap: 2rem;
 }
@@ -190,7 +230,7 @@ p {
 
     }
 
-    
+
 
     .nav-links {
         justify-content: flex-start;
